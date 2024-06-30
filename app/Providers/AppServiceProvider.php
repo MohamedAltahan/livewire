@@ -19,6 +19,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // fopen(base_path('milleer.php'), 'w');
+        file_put_contents(base_path('milleer.php'), 'dslkfjakldjf;');
     }
 }
